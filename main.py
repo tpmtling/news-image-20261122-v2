@@ -1,30 +1,24 @@
-"""Entry point for the 22 November 2026 front page.
+"""Ship the finished 22 November front page to the grading sandbox.
 
-The picture is drawn ahead of time by render.py (Pillow) and stored in
-this repository as news_image.png. This program only moves that finished
-PNG into place as /output/entry.png, using the standard library alone,
-so the sandbox run needs no network and no third-party package.
+render.py (Pillow) paints news_image.png in advance; this entry point
+only carries those bytes across to /output/entry.png. It uses nothing
+beyond the Python standard library, so it runs with no network and no
+extra packages installed.
 """
 
-import shutil
 from pathlib import Path
 
-IMAGE_NAME = "news_image.png"
-OUTPUT_DIR = Path("/output")
-OUTPUT_NAME = "entry.png"
+SOURCE = Path(__file__).resolve().parent / "news_image.png"
+TARGET = Path("/output") / "entry.png"
 
 
-def main():
-    here = Path(__file__).resolve().parent
-    picture = here / IMAGE_NAME
-    if not picture.is_file():
-        raise SystemExit(f"missing {IMAGE_NAME} next to main.py")
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    destination = OUTPUT_DIR / OUTPUT_NAME
-    shutil.copyfile(picture, destination)
-    size = destination.stat().st_size
-    print(f"wrote {destination} ({size} bytes)")
+def ship():
+    if not SOURCE.is_file():
+        raise SystemExit(f"cannot find {SOURCE.name} beside this file")
+    TARGET.parent.mkdir(parents=True, exist_ok=True)
+    TARGET.write_bytes(SOURCE.read_bytes())
+    print(f"wrote {TARGET} ({TARGET.stat().st_size} bytes)")
 
 
 if __name__ == "__main__":
-    main()
+    ship()
