@@ -266,12 +266,12 @@ def front_page():
     art_box(img, lock_scene, EDGE, y + 6, half_w, 64)
     left_end = y + 6 + 64
     yr = tag(pen, EDGE + half_w + 24, y_top, "Climate · Antalya", half_w)
-    yr = banner(pen, EDGE + half_w + 24, yr, "COP31 NEARS A FINAL DEAL",
+    yr = banner(pen, EDGE + half_w + 24, yr, "COP31 TALKS COLLAPSE",
                 24, half_w, 26)
     yr = block(pen, EDGE + half_w + 24, yr + 4,
-               "The climate summit is close to agreement, its president "
-               "said, offering a refined package after talks missed their "
-               "deadline. The draft had dropped fossil fuels.",
+               "The climate summit ended in collapse on Sunday, the EU and "
+               "others rejecting a final deal that dropped fossil fuels. "
+               "The longest COP on record.",
                face(SERIF, 14), half_w, 17)
     art_box(img, summit_scene, EDGE + half_w + 24, yr + 6, half_w, 64)
     y = max(left_end, yr + 6 + 64) + 6
@@ -311,15 +311,15 @@ def front_page():
     pen.text((EDGE, y), "IN BRIEF", font=face(SANS_BOLD, 15), fill=CRIMSON)
     y += 22
     briefs = [
-        "G20 opens in Johannesburg, the first summit on African soil.",
+        "EU and Indonesia sign a trade deal scrapping most tariffs.",
         "Japan and India agree deeper defence and arms-industry ties.",
         "Russian cargo ship hit by drones in the Baltic; Finland on alert.",
-        "Four killed in a landslide in Sri Lanka's Central Province.",
-        "TikTok launches a global deepfake-detection tool for public figures.",
+        "Three killed, 36 missing after a factory fire in Indonesia.",
+        "TikTok launches a deepfake-detection tool for public figures.",
         "Two tanker incidents near Oman; Iran says a vessel hit a mine.",
     ]
-    fnt = face(SERIF, 13)
-    row = 17
+    fnt = face(SERIF, 14)
+    row = 19
     for i, item in enumerate(briefs):
         bx = EDGE if i % 2 == 0 else EDGE + half_w + 24
         by = y + (i // 2) * row
@@ -329,8 +329,8 @@ def front_page():
 
     # ---- footer ----
     pen.text((EDGE, y + 8),
-             "THE WORLD TODAY  ·  Sunday, 22 November 2026  ·  Sources: AP, France 24, Arab News, Xinhua, Dunya News",
-             font=face(SANS, 13), fill=SOFT)
+             "THE WORLD TODAY  ·  Sunday, 22 November 2026  ·  Sources: AP, AFP, France 24, Arab News, Dunya News",
+             font=face(SANS, 14), fill=SOFT)
 
     img.save("news_image.png")
     print("wrote news_image.png", img.size)

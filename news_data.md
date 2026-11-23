@@ -13,11 +13,13 @@ report it: Saturday night's events carried into Sunday's editions.
   hacked, President Trump confirmed. The FBI is investigating how the
   intruders got in; what was taken is not yet clear.
   (Dunya News / AP, 22 November 2026)
-- COP31: Climate talks in Antalya are close to a final deal, the summit
-  president said, presenting a refined package after the talks missed
-  their deadline. Campaigners had called the draft the worst COP yet
-  for dropping any mention of fossil fuels.
-  (Arab News / AFP, 22 November 2026)
+- COP31: Climate talks in Antalya collapsed on Sunday, the EU and
+  others rejecting a final deal that dropped any mention of fossil
+  fuels. The summit ran two days into overtime, the longest COP on
+  record, and ended with no agreement.
+  (Reuters via Nikkei / Al Jazeera / The Hindu, 22 November 2026)
+  [Replaces the 22 Nov morning draft: "close to a final deal" —
+  superseded by the Sunday collapse.]
 - Ukraine: A Russian ballistic missile attack on Kryvyi Rih, President
   Zelensky's hometown in central Ukraine, killed 2 people and wounded
   scores. Moscow also targeted bridges in Kyiv after Ukrainian strikes
@@ -32,15 +34,22 @@ report it: Saturday night's events carried into Sunday's editions.
   (France 24, 22 November 2026)
 
 Briefs:
-- The G20 summit opened in Johannesburg, the first time the meeting is
-  held on African soil. (Xinhua, 22 November 2026)
+- The EU and Indonesia signed a trade deal in Brussels, scrapping
+  duties on most goods after almost a decade of talks; Indonesia will
+  remove duties on 98.5% of tariff lines for EU goods.
+  (AFP / European Commission, 21 November 2026)
+  [Replaces: "The G20 summit opened in Johannesburg" — wrong year.
+  That summit was 22–23 November 2025, not 2026.]
 - Japan and India agreed to deepen military and defence-industry
   cooperation, including live-fire missile training at Indian ranges.
   (22 November 2026)
 - A Russian cargo ship was hit by drones in the Baltic; Finland
   tightened security. (Times of India, 22 November 2026)
-- Four people died in a landslide in Sri Lanka's Central Province.
-  (Xinhua, 22 November 2026)
+- Three people were killed and 36 were missing after a fire at a
+  candy factory in Cikande, Indonesia, which broke out on Saturday
+  afternoon. (AFP / Reuters, 22 November 2026)
+  [Replaces: "Four killed in a landslide in Sri Lanka" — that
+  Kadugannawa landslide was 12–13 November 2026, not 21/22 November.]
 - TikTok launched a global deepfake-detection tool for public figures.
   (22 November 2026)
 - Britain's maritime agency reported two tanker incidents near Oman;
